@@ -13,5 +13,7 @@ namespace CoreDepartman.Models
         public string PerAd { get; set; }
         public string PerSoyad { get; set; }
         public string PerSehir { get; set; }
+        public int DepartmanID { get; set; }
+        public Departman Departman { get; set; }
     }
 }

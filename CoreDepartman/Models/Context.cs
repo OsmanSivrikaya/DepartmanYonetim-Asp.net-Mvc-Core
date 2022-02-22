@@ -11,6 +11,13 @@ namespace CoreDepartman.Models
     //using Microsoft.EntityFrameworkCore; kullanmamız lazım
     public class Context:DbContext
     {
+        /*
+         add-migration = yeni migration eklemek için kullanılır tablo üzeride değişiklik yapıldığında yeni migration eklemeden update yapılmaz
+        update-database = tablo üzerinde yapılan düzenlemeleri yeni migration ' a göndermek için kullanılır
+         
+         
+         
+         */
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);

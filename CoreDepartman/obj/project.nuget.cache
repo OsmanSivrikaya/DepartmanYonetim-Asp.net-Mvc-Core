@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C3rgF36bi5b4UIlZw5HJlXQOuLAtcS6kHMKULbcpFMfgYzpBBbFhqEgnCFaWAyraWyyyf1Pmz+zP0iL6OEDzpw==",
+  "dgSpecHash": "GT+KLmcfbAw/y3qFodvGiud+PGduBV3r5qVP1vq3exDxk0ANx6hyTav57mMWYrxNa0gQ/DTbYqiqA7S2Qznb3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\osman\\source\\repos\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
+  "projectFilePath": "C:\\Users\\osman\\Desktop\\CoreDepartman\\CoreDepartman\\CoreDepartman.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\osman\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
