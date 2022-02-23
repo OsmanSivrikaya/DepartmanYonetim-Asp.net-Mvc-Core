@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CoreDepartman.Models;
 
+
 namespace CoreDepartman.Controllers
 {
     public class DepartController : Controller

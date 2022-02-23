@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CoreDepartman.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CoreDepartman.Controllers
 {
@@ -12,7 +14,7 @@ namespace CoreDepartman.Controllers
         Context c = new Context();
         public IActionResult Index()
         {
-            var oku = c.personel/*.Include(x=>x.Departman)*/.ToList();
+            var oku = c.personel.Include(x => x.Departman).ToList();
             return View(oku);
         }
         public IActionResult PersonelSil(int id)
@@ -21,6 +23,29 @@ namespace CoreDepartman.Controllers
             c.personel.Remove(sil);
             c.SaveChanges();
             return View("Index");
+        }
+        [HttpGet]
+        public IActionResult YeniPersonel()
+        {
+            List<SelectListItem> degerler = (from x in c.departman.ToList()
+                                             select new SelectListItem
+                                             {
+                                                 Text = x.DepartmanAd,
+                                                 Value = x.DepartmanID.ToString()
+
+                                             }).ToList();
+            ViewBag.dgr = degerler;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult YeniPersonel(Personel p)
+        {
+            
+            var per = c.departman.Where(x => x.DepartmanID == p.Departman.DepartmanID).FirstOrDefault();
+            p.Departman = per;
+            c.personel.Add(p);
+            c.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }
