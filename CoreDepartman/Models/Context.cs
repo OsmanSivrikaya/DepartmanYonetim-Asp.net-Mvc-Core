@@ -21,9 +21,10 @@ namespace CoreDepartman.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("server=DESKTOP-IN1QIJK\\SQLEXPRESS; database=corepersonel; integrated security=true;");
+            optionsBuilder.UseSqlServer("server=OSMANSIVRIKAYA; database=corepersonel1; integrated security=true;");
         }
         public DbSet<Departman> departman { get; set; }
         public DbSet<Personel> personel { get; set; }
+        public DbSet<Admin> Admins { get; set; }
     }
 }

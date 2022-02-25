@@ -5,9 +5,23 @@
 }
 <br />
 <form class="form-group" method="post">
-    <b>@Html.LabelFor(x => x.DepartmanAd)</b>
-    @Html.TextBoxFor(x => x.DepartmanAd, new { @class = "form-control" })
-    <br />
-    <button class="btn btn-info">Departman Ekle</button>
-    </form>
+    <div class="container">
+        <div class="row my-2" >
+            <div class="col">
+                @*<b>@Html.LabelFor(x => x.DepartmanAd)</b>*@
+                <label>Departman Adı</label>
+            </div>
+            <div class="col">
+                @Html.TextBoxFor(x => x.DepartmanAd,new { placeholder = "Departman Adı Giriniz...",@class = "form-control" })
+            </div>
+        </div>
+        <div class="row my-2">
+            <div class="col">
 
+            </div>
+            <div class="col">
+                <button class="btn btn-info">Departman Ekle</button>
+            </div>
+        </div>
+    </div>
+</form>
