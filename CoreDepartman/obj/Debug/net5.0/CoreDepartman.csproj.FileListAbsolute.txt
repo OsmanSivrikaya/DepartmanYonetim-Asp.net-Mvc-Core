@@ -428,12 +428,9 @@ C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\ne
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Depart\DepartmanGetir.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Depart\Index.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Depart\YeniDepartman.cshtml.g.cs
-C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Personel\Index.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Personel\YeniPersonel.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Shared\_testLayout.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -448,3 +445,4 @@ C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\ne
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\CoreDepartman.genruntimeconfig.cache
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Depart\BirimDetay.cshtml.g.cs
 C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Login\GirisYap.cshtml.g.cs
+C:\Users\osman\Desktop\CoreDepartman-Asp.net-Mvc-Core\CoreDepartman\obj\Debug\net5.0\Razor\Views\Aboutus\Index.cshtml.g.cs
