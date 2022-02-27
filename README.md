@@ -1,1 +1,1 @@
-CoreDepartman
+Bu proje şirketin departmanlarını ve personellerini kontrol edip güncelleme ekleme veya silme işlemlerinin yapıldığı login paneli ile giriş yapılan bir yönetim sistemidir.

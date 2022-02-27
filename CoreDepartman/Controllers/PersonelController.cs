@@ -24,8 +24,9 @@ namespace CoreDepartman.Controllers
         {
             var sil = c.personel.Find(id);
             c.personel.Remove(sil);
-            c.SaveChanges();
+            
             return View("Index");
+
         }
         [Authorize]
         [HttpGet]
